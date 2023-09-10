@@ -19,6 +19,7 @@ app.get("/",(req,res)=>{
     res.send("api is running successfully")
 })
 
+
 app.use("/api/user",userRoutes)
 app.use("/api/chat",chatRoutes)
 app.use("/api/message",messageRoutes)
